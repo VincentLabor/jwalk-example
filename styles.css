@@ -1,0 +1,174 @@
+/* Looks like the headings are all acumens pro and Poppins for everything else */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This is to make sure that the page covers the full viewport */
+html{
+    min-height: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* General Styles */
+
+.yellowBckgrnd{
+    background-color: #FBB30F;
+}
+
+.blueBckgrnd{
+    background-color: #228DD0; 
+}
+
+.whiteText{
+ color: white;
+}
+
+/* Padding */
+
+.top4EMPadding{
+    padding-top: 4em;
+}
+
+.bot4EMPadding{
+    padding-bottom: 4em;
+}
+
+.bot2p5EMPadding{
+    padding-bottom: 2.5em;
+}
+
+.bot1p5EMPadding{
+    padding-bottom: 1.5em;
+}
+.bot2EMPadding{
+    padding-bottom: 2em;
+}
+
+.bot1EMPadding{
+    padding-bottom: 1em;
+}
+
+.botp5EMPadding{
+    padding-bottom: .5em;
+}
+
+/* Margin */
+
+.botp5Margin{
+    margin-bottom: .5em;
+}
+.bot2Margin{
+    margin-bottom: 2em;
+}
+.bot4Margin{
+    margin-bottom: 4em;
+}
+
+
+
+.width90{
+    width: 90%;
+}
+
+.btn{
+    background-color: inherit;
+    border-radius: 5px;
+    padding: .5em 1em;
+    border: 2px solid black;
+}
+
+.whiteBtn{
+    background-color: inherit;
+    border-radius: 5px;
+    padding: .5em 1em;
+    border: 2px solid white;
+    color: white;
+}
+
+/* Landing */
+.landing{
+    background-image: url("./Pictures/header_home_website.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+
+.flexHeader{
+    display: flex;
+    margin-right: auto;
+}
+
+.logo{
+    max-width: 100%;
+    width: 170px;
+    margin-left: 0;
+}
+
+.hideNav{
+    display: none;
+}
+
+/* ul li:first-child{
+    margin-right: auto;
+    display: flex;
+} */
+
+.headerItem{
+    display: none;
+}
+
+/* Intro Virtual Section */
+
+.sectionImage{
+    max-width: 100%;
+    width: 23em;
+}
+
+
+/* Small Groups */
+.smallGroups{
+    background-color: white;
+}
+
+/* Connections */
+
+.connections{
+    background-image: url("./Pictures/hands.png");
+    background-size: cover;
+    color: white;
+}
+
+/* Footer */
+
+.inputPadding{
+    padding: 1em 2em;
+}
+
+.inputFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
