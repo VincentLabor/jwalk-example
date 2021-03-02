@@ -8,23 +8,29 @@
         content="The JesusWalk Youth Conference is designed to open the eyes of our youth to the potential they have in Christ.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ffed62ded0.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
     <title>JesusWalk Youth</title>
 </head>
 
 <body>
     <div class="landing">
         <!-- The nav is absolute on top of landing. Also has logo and on the right is other things -->
-        <nav>
+        <nav class="centerFlex">
             <!-- This has to be hidden for burger button -->
-            <ul class="flexHeader ">
-                <li class="logo"> <img src="./logos/JW_Logo_SideText_(WHITE).png" alt="" class="logo"></li>
+            <div class="logo"> 
+                <img src="./logos/JW_Logo_SideText_(WHITE).png" alt="" class="logo">
+            </div>
+            <i class="fas fa-bars fa-2x " id="hbMenu"></i>
+            
+            <!-- <ul class="flexHeader hideOnSmall">
                 <li class="headerItem"><a href="">Home</a></li>
                 <li class="headerItem">Virtual Conference</li>
                 <li class="headerItem">Small Groups</li>
                 <li class="headerItem">Events</li>
                 <li class="headerItem">Connect</li>
                 <li class="headerItem">About Us</li>
-            </ul>
+            </ul> -->
         </nav>
     </div>
     <main>
@@ -105,7 +111,7 @@
     </main>
     <footer class="blueBckgrnd whiteText">
         <div class="container width90">
-            <h2 class="bot1EMPadding">Subscribe</h2>
+            <h2 class="bot1EMPadding top2EMPadding">Subscribe</h2>
             <!-- inputFlex will change direction dependant on size of screen -->
             <form action="" class="inputFlex">
                 <input type="text" name="" id="" placeholder="First Name" class="botp5Margin inputPadding">
@@ -114,11 +120,11 @@
             </form>
 
 
-            <button class="btn bot4Margin">Sign up</button>
+            <button class="whiteBtn bot4Margin">Sign up</button>
             <p> P.O. Box 2785 Fullerton, CA 92837</p>
             <p> 657-234-JWYC(5992)</p>
             <p>Powered by God's love</p>
-            <p>Copyright © 2020 JesusWalk Youth Conference Organization, All rights reserved. </p>
+            <p class="bot4EMPadding">Copyright © 2020 JesusWalk Youth Conference Organization, All rights reserved. </p>
         </div>
     </footer>
 
