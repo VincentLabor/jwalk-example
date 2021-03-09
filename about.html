@@ -9,35 +9,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/ffed62ded0.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <title>JesusWalk Youth</title>
 </head>
 
 <body>
-    <section class="header beliefHeading flexCenter ">
+    <!-- <section class="header beliefHeading flexCenter ">
+
+        
         <div class="navbar ">
-            <!-- The nav is absolute on top of landing. Also has logo and on the right is other things -->
-            <nav class="centerFlex aboveAll">
-                <!-- This has to be hidden for burger button -->
+            
+            <nav class="flexCenter aboveAll">
+            
                 <div class="logo">
                     <img src="./logos/JW_Logo_SideText_(WHITE).png" alt="" class="logo">
                 </div>
                 <a href="#" class="flexCenter hbMenu"><i class="fas fa-bars fa-2x"></i></a>
 
-                <!-- <ul class="flexHeader hideOnSmall">
-                    <li class="headerItem"><a href="">Home</a></li>
-                    <li class="headerItem">Virtual Conference</li>
-                    <li class="headerItem">Small Groups</li>
-                    <li class="headerItem">Events</li>
-                    <li class="headerItem">Connect</li>
-                    <li class="headerItem">About Us</li>
-                </ul> -->
             </nav>
             <div class="headerbox ">
                 <h1 class="">Mission & Beliefs</h1>
             </div>
         </div>
-    </section>
+    </section> -->
+    <div id="landing" class="beliefHeading">
+        <!-- The nav is absolute on top of landing. Also has logo and on the right is other things -->
+        <nav class="flexCenter top1EMPadding ">
+            <!-- This has to be hidden for burger button -->
+            <div class="logo right1EmPadding">
+                <img src="./logos/JW_Logo_SideText_(WHITE).png" alt="" class="logo">
+            </div>
+            <i class="fas fa-bars fa-2x " id="hbMenu"></i>
+        </nav>
+
+        <div class="headerbox flexCenter">
+            <h1 class="">Mission & Beliefs</h1>
+        </div>
+    </div>
+    <div id="mobileNav" class="hidden whiteBckgrnd  showAbso blackText navAboveAll navHeight posiStatic">
+        <nav class="flexCenter top1EMPadding ">
+            <!-- This has to be hidden for burger button -->
+            <div class="logo right1EmPadding">
+                <img src="./logos/JW_Logo_SideText_(WHITE).png" alt="" class="logo">
+            </div>
+
+            <i class="fas fa-times" id="exitIcon"></i>
+        </nav>
+        <ul  class=" flexHorizontal ">
+            <li class="headerItem returnHome"><a href="./index.html">Home</a></li>
+            <li class="headerItem">Virtual Conference</li>
+            <li class="headerItem">Small Groups</li>
+            <li class="headerItem">Events</li>
+            <li class="headerItem">Connect</li>
+            <li class="headerItem">About Us</li>
+        </ul>
+
+    </div>
     <section class="width90 top4EMPadding bot4EMPadding">
 
         <img src="./Pictures/Logo-Slogan.png" alt="" class="logoSlogan flexCenter bot4EMPadding">
